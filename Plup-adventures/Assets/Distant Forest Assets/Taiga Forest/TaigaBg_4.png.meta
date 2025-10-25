@@ -1,6 +1,5 @@
 fileFormatVersion: 2
 guid: 0a29b3286bbbe2f48aa7832458b4c185
-<<<<<<< HEAD
 AssetOrigin:
   serializedVersion: 1
   productId: 194105
@@ -12,12 +11,6 @@ TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
-=======
-TextureImporter:
-  internalIDToNameTable: []
-  externalObjects: {}
-  serializedVersion: 11
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -34,18 +27,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
     flipGreenChannel: 0
-=======
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<< HEAD
   ignoreMipmapLimit: 0
-=======
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -54,15 +41,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
     filterMode: 0
     aniso: 1
     mipBias: 0
-=======
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -71,11 +52,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-<<<<<<< HEAD
   spriteMeshType: 0
-=======
-  spriteMeshType: 1
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -94,15 +71,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-<<<<<<< HEAD
   swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 4
-=======
-  platformSettings:
-  - serializedVersion: 3
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -112,7 +84,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -127,18 +98,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
-=======
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
-<<<<<<< HEAD
     customData: 
-=======
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -148,7 +114,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
     spriteCustomMetadata:
       entries: []
     nameFileIdTable: {}
@@ -157,18 +122,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-=======
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 194105
-  packageName: 2D Pixel Art - Distant Forest 64x64
-  packageVersion: 1.0
-  assetPath: Assets/Distant Forest Assets/Taiga Forest/TaigaBg_4.png
-  uploadId: 430231
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421

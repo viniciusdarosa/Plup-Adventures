@@ -12,11 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: TaigaPack1_39
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  m_Sprite: {fileID: 1473150715, guid: 7a7cbe6c4a73a9a45b0f200d31deb971, type: 3}
-=======
-  m_Sprite: {fileID: -1743982137, guid: 7a7cbe6c4a73a9a45b0f200d31deb971, type: 3}
->>>>>>> 720057ed05dd5e8fa6b9ef232e810d97abc1c421
+  m_Sprite: {fileID: 999613597, guid: 7a7cbe6c4a73a9a45b0f200d31deb971, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
