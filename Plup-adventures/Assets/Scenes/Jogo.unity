@@ -2046,11 +2046,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
   m_LocalPosition: {x: 1.12, y: 2.59, z: -10}
-=======
-  m_LocalPosition: {x: 4.51, y: 4, z: -10}
->>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: 4.51, y: 4, z: -10}
 >>>>>>> Stashed changes
@@ -18802,18 +18798,12 @@ SceneRoots:
   - {fileID: 1457771909}
   - {fileID: 518678312}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
   - {fileID: 891519005}
   - {fileID: 616859715}
   - {fileID: 1896100376}
   - {fileID: 1780994927}
   - {fileID: 1256705904}
   - {fileID: 2014531253}
-=======
-  - {fileID: 691593123}
-  - {fileID: 1768935430}
-  - {fileID: 1866948426}
->>>>>>> Stashed changes
 =======
   - {fileID: 691593123}
   - {fileID: 1768935430}
