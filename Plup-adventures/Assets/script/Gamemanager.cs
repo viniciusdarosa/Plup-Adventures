@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 public class Gamemanager : MonoBehaviour
 {
@@ -21,7 +21,7 @@ public class Gamemanager : MonoBehaviour
         }
 
         textPontos.text = "pontos: " + pontos;
-        Debug.Log("prontos: " + pontos);
+        Debug.Log("pontos: " + pontos);
 
     }
     public void perdervidas(int vida)

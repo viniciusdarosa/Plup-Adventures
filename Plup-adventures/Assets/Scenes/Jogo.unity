@@ -1958,7 +1958,7 @@ Transform:
   m_GameObject: {fileID: 864718945}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 1.12, y: 2.59, z: -10}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1980,7 +1980,7 @@ GameObject:
   - component: {fileID: 891519006}
   m_Layer: 0
   m_Name: pixilart-sprite (1)_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2162,12 +2162,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af04a6f6b0ea5f4297e72090ee8b35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  speed: 0
+  speed: 10
   jumpForce: 5
-  isground: 0
+  isground: 1
   posicaoI: {x: 0, y: 0}
-  gamemanager: {fileID: 0}
+  gamemanager: {fileID: 1896100377}
 --- !u!1 &944728516
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,8 +2600,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -453.1, y: 218}
-  m_SizeDelta: {x: 145.1187, y: 62.0053}
+  m_AnchoredPosition: {x: -427.1186, y: 218}
+  m_SizeDelta: {x: 197.0815, y: 62.0053}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065802431
 MonoBehaviour:
@@ -18071,7 +18070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pontos: 0
   vidas: 3
-  textPontos: {fileID: 0}
+  textPontos: {fileID: 1065802431}
 --- !u!1 &1911037156
 GameObject:
   m_ObjectHideFlags: 0
