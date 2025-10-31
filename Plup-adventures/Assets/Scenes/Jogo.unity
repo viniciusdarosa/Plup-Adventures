@@ -3134,7 +3134,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1256705905}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: ActiveConfig
+        m_MethodName: ActivePause
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1582648989}
@@ -19095,7 +19095,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1256705905}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: DisableConfig
+        m_MethodName: DisablePause
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1582648989}
