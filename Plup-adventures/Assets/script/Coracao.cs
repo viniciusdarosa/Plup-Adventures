@@ -1,8 +1,8 @@
 using UnityEngine;
-public class Coin : MonoBehaviour
+public class Coracao : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private int ponto = 0;//crio a variael ponto
+    private int vida = 1;//crio a variael ponto
     public Gamemanager gamemanager;
     void Start()
     {
@@ -18,7 +18,7 @@ public class Coin : MonoBehaviour
     {
         if (collision.CompareTag("Player"))//comparo ela com o player
         {
-            gamemanager.Addpontos(5);
+            gamemanager.Addvidas(1);
             Destroy(gameObject);
 
         }
