@@ -1329,7 +1329,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!58 &286994700
 CircleCollider2D:
@@ -1555,7 +1554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!58 &322182048
 CircleCollider2D:
@@ -3311,7 +3309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!58 &574632016
 CircleCollider2D:
@@ -5524,7 +5521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!58 &1295642728
 CircleCollider2D:
@@ -5924,7 +5920,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!58 &1341563865
 CircleCollider2D:
@@ -6759,7 +6754,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!58 &1516376089
 CircleCollider2D:
@@ -8027,7 +8021,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!1 &1779936711
 GameObject:
@@ -8342,7 +8335,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!58 &1795809211
 CircleCollider2D:
@@ -98889,7 +98881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cc447873fa8754089d0251571ae6c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 1
   gamemanager: {fileID: 2062457856}
 --- !u!58 &2041126516
 CircleCollider2D:
