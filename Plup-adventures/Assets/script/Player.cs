@@ -3,7 +3,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    
+
     private Rigidbody2D rigd; // vou declarar o rigidbory publico para acessar ele 
     public float speed; // vou declarar a velocidade  publico para mudar ela 
 
@@ -59,14 +59,16 @@ public class Player : MonoBehaviour
         }
 
     }
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "tagGround")
-    //    {
-    //        isground = false;
-    //        Debug.Log("esta no chão");
-    //    }
-    //}
 }
+
+//    private void OnCollisionEnter2D(Collision2D collision)
+//    {
+//        if (collision.gameObject.tag == "tagGround")
+//        {
+//            isground = false;
+//            Debug.Log("esta no chão");
+//        }
+//    }
+//}
 
 
