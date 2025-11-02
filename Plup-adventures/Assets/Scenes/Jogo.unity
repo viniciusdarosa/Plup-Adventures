@@ -3804,8 +3804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213, y: -84}
-  m_SizeDelta: {x: 381.91003, y: 114.81299}
+  m_AnchoredPosition: {x: 273.086, y: -84}
+  m_SizeDelta: {x: 502.081, y: 114.813}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065802431
 MonoBehaviour:
@@ -3892,7 +3892,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 6.8602448, w: 24.346916}
+  m_margin: {x: 0, y: 0, z: -85.579285, w: 24.346916}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -21698,7 +21698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pontos: 0
-  vidas: 3
+  vidas: 1
   textPontos: {fileID: 1065802431}
   textVidas: {fileID: 1025858122}
 --- !u!1 &1911037156
