@@ -38,7 +38,12 @@ public class Gamemanager : MonoBehaviour
         {
 
             vidas = 0;
-            
+
+            Time.timeScale = 0;
+            SceneManager.LoadScene(2);
+
+            Debug.Log("gamer-over");
+
 
 
         }
@@ -50,40 +55,37 @@ public class Gamemanager : MonoBehaviour
 
 
 
-    public void perdervidas(int vida)
+    public void PerderV(int vida)
     {
-        vidas -= vida;
-        Debug.Log("vidas: " + vidas);
-
+        Debug.Log("Vidas: " + vidas);
         GameObject player = GameObject.FindWithTag("Player");
         player.GetComponent<Player>().reiniciarposicao();
-
+        vidas -= vida;
         if (vidas <= 0)
         {
-
-            vidas = 0;
             Time.timeScale = 0;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
 
             Debug.Log("gamer-over");
-
         }
+        textVidas.text = "vidas: " + vidas;
+        Debug.Log("vidas: " + vidas);
     }
 
-    public void perderpontos(int point)
+    public void PerderP(int point)
     {
-        pontos -= point;
         Debug.Log("pontos: " + pontos);
-
         GameObject player = GameObject.FindWithTag("Player");
-
+        player.GetComponent<Player>().reiniciarposicao();
+        pontos -= point;
         if (pontos <= 0)
         {
-
             pontos = 0;
-            Debug.Log("pontos 0 ");
-
-
+            
         }
+        textPontos.text = "pontos: " + pontos;
+        Debug.Log("pontos: " + pontos);
     }
+
+
 }
