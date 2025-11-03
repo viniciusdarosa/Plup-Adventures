@@ -1778,8 +1778,8 @@ Transform:
   m_GameObject: {fileID: 616859712}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6400313, y: -0.48438454, z: -0.030957334}
-  m_LocalScale: {x: 0.8423, y: 0.7875, z: 1}
+  m_LocalPosition: {x: -2.48, y: -0.76, z: -0.030957334}
+  m_LocalScale: {x: 0.53457415, y: 0.49979478, z: 0.63466}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 166788387}
@@ -1824,13 +1824,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617343184}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.55, y: 3.72, z: -0.030957334}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.33080497, w: 0.9436992}
+  m_LocalPosition: {x: 7.97, y: 2.76, z: -0.030957334}
+  m_LocalScale: {x: 0.59931, y: 0.59931, z: 0.59931}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 166788387}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 38.635}
 --- !u!114 &617343186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2952,7 +2952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpForce: 5
+  jumpForce: 10
   isground: 1
   posicaoI: {x: 0, y: 0}
   gamemanager: {fileID: 1896100377}
@@ -5815,7 +5815,7 @@ GameObject:
   - component: {fileID: 1329420941}
   m_Layer: 0
   m_Name: fundo
-  m_TagString: Untagged
+  m_TagString: tagGround
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
