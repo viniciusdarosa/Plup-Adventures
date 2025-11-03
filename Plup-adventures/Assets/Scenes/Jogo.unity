@@ -1327,7 +1327,7 @@ Transform:
   m_GameObject: {fileID: 546648658}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.39166, y: 2.1581807, z: -0.053978473}
+  m_LocalPosition: {x: 34.4, y: 2, z: -0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1778,8 +1778,8 @@ Transform:
   m_GameObject: {fileID: 616859712}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.48, y: -0.76, z: -0.030957334}
-  m_LocalScale: {x: 0.53457415, y: 0.49979478, z: 0.63466}
+  m_LocalPosition: {x: -2.48, y: -0.78, z: -0.030957334}
+  m_LocalScale: {x: 0.53457415, y: 0.51978654, z: 0.63466}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 166788387}
@@ -2729,7 +2729,7 @@ Transform:
   m_GameObject: {fileID: 864718945}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.08, y: 2.76, z: -10}
+  m_LocalPosition: {x: -0.37, y: 1.48, z: -10}
   m_LocalScale: {x: -0, y: -0, z: -0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -18585,7 +18585,7 @@ Transform:
   m_GameObject: {fileID: 1361663323}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.779968, y: 8.785616, z: -0.030957334}
+  m_LocalPosition: {x: 18.779968, y: 8.67, z: -0.030957334}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19857,8 +19857,8 @@ Transform:
   m_GameObject: {fileID: 1560865410}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.2382, y: 1.9329998, z: 0}
-  m_LocalScale: {x: 4.022079, y: 1.0073044, z: 3.8726}
+  m_LocalPosition: {x: 37.2403, y: 1.9329998, z: 0}
+  m_LocalScale: {x: 4.026229, y: 1.0073044, z: 3.8726}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 403774550}
@@ -19906,7 +19906,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.24578047, g: 0.19063723, b: 0.6415094, a: 1}
   m_FlipX: 0
@@ -21854,6 +21854,7 @@ GameObject:
   - component: {fileID: 1897646141}
   - component: {fileID: 1897646145}
   - component: {fileID: 1897646144}
+  - component: {fileID: 1897646146}
   m_Layer: 0
   m_Name: orca
   m_TagString: Untagged
@@ -22012,6 +22013,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+--- !u!50 &1897646146
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897646140}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1911037156
 GameObject:
   m_ObjectHideFlags: 0
