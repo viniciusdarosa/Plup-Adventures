@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      coruja_fly_0: -7528571389074095120
+      coruja_fly_1: -2331839695320562610
+      coruja_fly_2: -1684331553761616384
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
