@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class Gamemanager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public int pontos = 0; //crio os pontos e as vidas
     public int vidas = 1;
+    
     public TextMeshProUGUI textPontos;
     public TextMeshProUGUI textVidas;
 
@@ -18,6 +20,7 @@ public class Gamemanager : MonoBehaviour
         {
 
             pontos = 0;
+            
 
         }
 
@@ -35,6 +38,8 @@ public class Gamemanager : MonoBehaviour
         {
 
             vidas = 0;
+            
+
 
         }
 
@@ -42,6 +47,8 @@ public class Gamemanager : MonoBehaviour
         Debug.Log("vidas: " + vidas);
 
     }
+
+
 
     public void perdervidas(int vida)
     {
@@ -56,6 +63,7 @@ public class Gamemanager : MonoBehaviour
 
             vidas = 0;
             Time.timeScale = 0;
+            SceneManager.LoadScene(0);
 
             Debug.Log("gamer-over");
 
@@ -65,7 +73,7 @@ public class Gamemanager : MonoBehaviour
     public void perderpontos(int point)
     {
         pontos -= point;
-        Debug.Log("pontos: " + vidas);
+        Debug.Log("pontos: " + pontos);
 
         GameObject player = GameObject.FindWithTag("Player");
 
@@ -73,9 +81,8 @@ public class Gamemanager : MonoBehaviour
         {
 
             pontos = 0;
-            Time.timeScale = 0;
+            Debug.Log("pontos 0 ");
 
-            Debug.Log("gamer-over");
 
         }
     }
