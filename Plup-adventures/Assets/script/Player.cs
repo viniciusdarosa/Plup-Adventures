@@ -26,7 +26,16 @@ public class Player : MonoBehaviour
         jump();//chamo o pulo 
     }
 
-    public void reiniciarposicao()
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "tagGround")
+        {
+            isground = true;
+            Debug.Log("esta no chão");
+        }
+    }
+
+public void reiniciarposicao()
     {
 
         transform.position = posicaoI;
@@ -55,20 +64,12 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isground == true)//se a tecla for precionada para baixo e o chão for vdd
         {
             rigd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            isground = true;
+            isground = false;
         }
 
     }
 }
 
-//    private void OnCollisionEnter2D(Collision2D collision)
-//    {
-//        if (collision.gameObject.tag == "tagGround")
-//        {
-//            isground = false;
-//            Debug.Log("esta no chão");
-//        }
-//    }
-//}
+
 
 
