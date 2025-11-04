@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rigd; // vou declarar o rigidbory publico para acessar ele 
     public float speed; // vou declarar a velocidade  publico para mudar ela 
+    public Animator anim;
 
     //pulo
     public float jumpForce = 5f;//configurar a força do pulo(posso configurar ou dar direto)
@@ -37,26 +38,27 @@ public class Player : MonoBehaviour
 
 public void reiniciarposicao()
     {
-
         transform.position = posicaoI;
     }
 
 
     void Move()
     {
-        float teclas = Input.GetAxis("Horizontal");//eu configuro as teclas horizontais
-        rigd.linearVelocity = new Vector2(teclas * speed, rigd.linearVelocity.y); //multiplico a velocidade pelas teclas
-
-        if (teclas > 0 && isground == true)//se for + q 0
+        float teclas = Input.GetAxis("Horizontal");
+        rigd.linearVelocity = new Vector2(teclas * speed, rigd.linearVelocity.y);
+        if (teclas > 0)
         {
-            transform.eulerAngles = new Vector2(0, 0); //vai para a direita
+            transform.eulerAngles = new Vector2(0, 0);
+            anim.SetInteger("transition", 1);
         }
-        if (teclas < 0 && isground == true)//se for menor
+        if (teclas < 0)
         {
-            transform.eulerAngles = new Vector2(0, 180); //vira para esquerda
+            transform.eulerAngles = new Vector2(0, 180);
+            anim.SetInteger("transition", 1);
         }
-        if (teclas == 0 && isground == true) //se for igual
+        if (teclas == 0)
         {
+            anim.SetInteger("transition", 0);
         }
     }
     void jump()
