@@ -3006,7 +3006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  anim: {fileID: 265099752}
+  anim: {fileID: 891519003}
   jumpForce: 10
   isground: 1
   posicaoI: {x: 0, y: 0}
