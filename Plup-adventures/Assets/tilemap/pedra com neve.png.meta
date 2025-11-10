@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pedra com neve_0: 6147694832808280719
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
