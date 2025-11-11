@@ -3005,9 +3005,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af04a6f6b0ea5f4297e72090ee8b35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 8
   anim: {fileID: 891519003}
-  jumpForce: 10
+  jumpForce: 8
   isground: 1
   posicaoI: {x: 0, y: 0}
   gamemanager: {fileID: 1896100377}
@@ -21910,6 +21910,7 @@ GameObject:
   - component: {fileID: 1897646145}
   - component: {fileID: 1897646144}
   - component: {fileID: 1897646146}
+  - component: {fileID: 1897646147}
   m_Layer: 0
   m_Name: orca
   m_TagString: Untagged
@@ -22095,6 +22096,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1897646147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897646140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d62a3fecde7814e93de0a8b2d4751d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alvo: {fileID: 891519005}
+  velocidade: 2
+  distancia: 7
 --- !u!1 &1911037156
 GameObject:
   m_ObjectHideFlags: 0
