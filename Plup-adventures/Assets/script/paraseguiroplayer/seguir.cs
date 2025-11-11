@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SeguirObjeto2D : MonoBehaviour
 {
-    [Header("Configurações")]
+
     public Transform alvo;        // Objeto a ser seguido
     public float velocidade = 5f; // Velocidade de movimento
     public float distancia = 5f;  // Distância de ativação do movimento
