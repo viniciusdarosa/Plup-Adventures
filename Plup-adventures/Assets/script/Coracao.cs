@@ -14,10 +14,15 @@ public class Coracao : MonoBehaviour
     {
 
     }
+    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))//comparo ela com o player
         {
+            PlayerAudio som = collision.GetComponent<PlayerAudio>();
+            som.PlaySFX(som.lifeSound);
+            Debug.Log("colidiu");
             gamemanager.Addvidas(1);
             Destroy(gameObject);
 

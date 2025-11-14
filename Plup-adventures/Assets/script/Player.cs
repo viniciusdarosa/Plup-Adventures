@@ -14,10 +14,16 @@ public class Player : MonoBehaviour
 
     public Vector2 posicaoI;//chamo o vetor x e y
     public Gamemanager gamemanager;//chamo tbm o gamermanager
+
+
+    private PlayerAudio playerAudio;
     void Start()
     {
+        anim = GetComponent<Animator>();//digo de onde o anim é
         rigd = GetComponent<Rigidbody2D>();//digo de onde o rigd é
         posicaoI = transform.position; //pega a posição inicial
+
+        playerAudio = GetComponent<PlayerAudio>();
     }
 
     // Update is called once per frame
@@ -68,6 +74,9 @@ public void reiniciarposicao()
         {
             rigd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isground = false;
+
+            playerAudio.PlaySFX(playerAudio.jumpSound);
+
         }
 
     }

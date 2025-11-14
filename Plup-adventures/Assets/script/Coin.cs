@@ -18,9 +18,13 @@ public class Coin : MonoBehaviour
     {
         if (collision.CompareTag("Player"))//comparo ela com o player
         {
+            PlayerAudio som = collision.GetComponent<PlayerAudio>();
+            som.PlaySFX(som.coinSound);
+            Debug.Log("colidiu");
             gamemanager.Addpontos(5);
             Destroy(gameObject);
 
         }
     }
 }
+
