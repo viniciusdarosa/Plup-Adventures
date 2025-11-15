@@ -3109,7 +3109,7 @@ MonoBehaviour:
   anim: {fileID: 891519003}
   jumpForce: 8
   isground: 1
-  posicaoI: {x: 0, y: 0}
+  posicaoI: {x: 4, y: 5}
   gamemanager: {fileID: 1896100377}
 --- !u!114 &891519007
 MonoBehaviour:
