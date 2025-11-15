@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: e81a4093f27fc6a4f8b198bbcf0b2d67
+guid: 18c844cbe8ca2b24fa3bf995780f2b58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8428025247501047004
-    second: plupandandoupdate_0
+      213: 7914413733594700147
+    second: andandoupdate2_0
   - first:
-      213: 806122779563285227
-    second: plupandandoupdate_1
+      213: -3274216315795082406
+    second: andandoupdate2_1
   - first:
-      213: 6653110902098694051
-    second: plupandandoupdate_2
+      213: 2305738424238614213
+    second: andandoupdate2_2
   - first:
-      213: -3302063799887965016
-    second: plupandandoupdate_3
+      213: 4607088474360382640
+    second: andandoupdate2_3
   - first:
-      213: -5491678780097859735
-    second: plupandandoupdate_4
+      213: -6262111125958822096
+    second: andandoupdate2_4
   - first:
-      213: -5255207317066667726
-    second: plupandandoupdate_5
+      213: -4013048094413820270
+    second: andandoupdate2_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plupandandoupdate_0
+      name: andandoupdate2_0
       rect:
         serializedVersion: 2
         x: 1
@@ -143,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd4d25b1f4c56f470800000000000000
-      internalID: 8428025247501047004
+      spriteID: 379926cbb55a5dd60800000000000000
+      internalID: 7914413733594700147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plupandandoupdate_1
+      name: andandoupdate2_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 39
         y: 0
-        width: 28
+        width: 25
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -165,19 +165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bea5831a56cef2b00800000000000000
-      internalID: 806122779563285227
+      spriteID: a53fe3bbb95af82d0800000000000000
+      internalID: -3274216315795082406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plupandandoupdate_2
+      name: andandoupdate2_2
       rect:
         serializedVersion: 2
         x: 73
         y: 0
-        width: 27
+        width: 25
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,61 +187,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3af0fd2ad19945c50800000000000000
-      internalID: 6653110902098694051
+      spriteID: 5c626b961e0afff10800000000000000
+      internalID: 2305738424238614213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plupandandoupdate_3
+      name: andandoupdate2_3
       rect:
         serializedVersion: 2
         x: 104
-        y: 0
-        width: 30
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a450061876bc22d0800000000000000
-      internalID: -3302063799887965016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: plupandandoupdate_4
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 0
-        width: 27
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96f67b3ee33a9c3b0800000000000000
-      internalID: -5491678780097859735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: plupandandoupdate_5
-      rect:
-        serializedVersion: 2
-        x: 174
         y: 0
         width: 28
         height: 34
@@ -253,8 +209,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2392535d9c0c117b0800000000000000
-      internalID: -5255207317066667726
+      spriteID: 0b40c0bde8aafef30800000000000000
+      internalID: 4607088474360382640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andandoupdate2_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037f339eb138819a0800000000000000
+      internalID: -6262111125958822096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andandoupdate2_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ee7e9250ace48c0800000000000000
+      internalID: -4013048094413820270
       vertices: []
       indices: 
       edges: []
@@ -273,12 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plupandandoupdate_0: 8428025247501047004
-      plupandandoupdate_1: 806122779563285227
-      plupandandoupdate_2: 6653110902098694051
-      plupandandoupdate_3: -3302063799887965016
-      plupandandoupdate_4: -5491678780097859735
-      plupandandoupdate_5: -5255207317066667726
+      andandoupdate2_0: 7914413733594700147
+      andandoupdate2_1: -3274216315795082406
+      andandoupdate2_2: 2305738424238614213
+      andandoupdate2_3: 4607088474360382640
+      andandoupdate2_4: -6262111125958822096
+      andandoupdate2_5: -4013048094413820270
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
