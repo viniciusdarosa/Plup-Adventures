@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 166788387}
   m_Layer: 0
   m_Name: inimigos
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1717,7 +1717,7 @@ GameObject:
   - component: {fileID: 616859716}
   m_Layer: 0
   m_Name: bonecodeneve_0
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1865,7 +1865,7 @@ GameObject:
   - component: {fileID: 617343189}
   m_Layer: 0
   m_Name: bonecodeneve_0
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3109,7 +3109,7 @@ MonoBehaviour:
   anim: {fileID: 891519003}
   jumpForce: 8
   isground: 1
-  posicaoI: {x: 0, y: 0}
+  posicaoI: {x: 4, y: 5}
   gamemanager: {fileID: 1896100377}
 --- !u!114 &891519007
 MonoBehaviour:
@@ -3325,7 +3325,7 @@ GameObject:
   - component: {fileID: 950800340}
   m_Layer: 0
   m_Name: bonecodeneve_0
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18839,7 +18839,7 @@ GameObject:
   - component: {fileID: 1361663328}
   m_Layer: 0
   m_Name: bonecodeneve_0
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19789,7 +19789,7 @@ GameObject:
   - component: {fileID: 1508364872}
   m_Layer: 0
   m_Name: bonecodeneve_0
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20381,7 +20381,7 @@ GameObject:
   - component: {fileID: 1606335414}
   m_Layer: 0
   m_Name: bonecodeneve_0
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
