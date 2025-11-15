@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      services-parametres-et-icone-d-engrenage-gris_0: 7472551266996740596
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
