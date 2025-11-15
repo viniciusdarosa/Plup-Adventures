@@ -584,7 +584,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3 ocean clouds_0: 7824935161721334403
+      3 ocean clouds_1: -8663655982737056745
+      3 ocean clouds_10: 3561960127866773404
+      3 ocean clouds_11: -2432701240547104510
+      3 ocean clouds_12: -1370729779418307425
+      3 ocean clouds_13: -3330749481368136024
+      3 ocean clouds_14: -5164122648367071912
+      3 ocean clouds_15: 4941068640591055153
+      3 ocean clouds_16: -7270403623004934610
+      3 ocean clouds_17: -745546010066068736
+      3 ocean clouds_18: 7069547027196509599
+      3 ocean clouds_2: -9037676743561399293
+      3 ocean clouds_3: 3540465504712345636
+      3 ocean clouds_4: 9219030971941777349
+      3 ocean clouds_5: -6484761890890131480
+      3 ocean clouds_6: -1423891910438339877
+      3 ocean clouds_7: -2762471281858356943
+      3 ocean clouds_8: 8922141599242503230
+      3 ocean clouds_9: 2527291196111094666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

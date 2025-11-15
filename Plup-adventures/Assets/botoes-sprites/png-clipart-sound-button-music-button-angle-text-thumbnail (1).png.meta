@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      png-clipart-sound-button-music-button-angle-text-thumbnail (1)_0: -6759769764735168968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

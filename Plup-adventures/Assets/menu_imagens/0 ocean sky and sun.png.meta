@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      0 ocean sky and sun_0: 6400306049522292634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
