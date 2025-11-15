@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: d82b2acf2493694408944e54d3e3780d
+guid: e81a4093f27fc6a4f8b198bbcf0b2d67
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1734122342533805401
-    second: plupandando_0
+      213: 8428025247501047004
+    second: plupandandoupdate_0
   - first:
-      213: 7012528134638889329
-    second: plupandando_1
+      213: 806122779563285227
+    second: plupandandoupdate_1
   - first:
-      213: -6802171890023187843
-    second: plupandando_2
+      213: 6653110902098694051
+    second: plupandandoupdate_2
   - first:
-      213: -4910555102906308075
-    second: plupandando_3
+      213: -3302063799887965016
+    second: plupandandoupdate_3
   - first:
-      213: -6323872057081413485
-    second: plupandando_4
+      213: -5491678780097859735
+    second: plupandandoupdate_4
   - first:
-      213: -4958625131640559966
-    second: plupandando_5
+      213: -5255207317066667726
+    second: plupandandoupdate_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plupandando_0
+      name: plupandandoupdate_0
       rect:
         serializedVersion: 2
         x: 1
         y: 0
-        width: 29
-        height: 32
+        width: 31
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 955bbcf2517d01810800000000000000
-      internalID: 1734122342533805401
+      spriteID: cd4d25b1f4c56f470800000000000000
+      internalID: 8428025247501047004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plupandando_1
+      name: plupandandoupdate_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 38
+        y: 0
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea5831a56cef2b00800000000000000
+      internalID: 806122779563285227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plupandandoupdate_2
+      rect:
+        serializedVersion: 2
+        x: 73
         y: 0
         width: 27
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +187,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 179659a3f21815160800000000000000
-      internalID: 7012528134638889329
+      spriteID: 3af0fd2ad19945c50800000000000000
+      internalID: 6653110902098694051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plupandando_2
+      name: plupandandoupdate_3
       rect:
         serializedVersion: 2
-        x: 67
+        x: 104
+        y: 0
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a450061876bc22d0800000000000000
+      internalID: -3302063799887965016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plupandandoupdate_4
+      rect:
+        serializedVersion: 2
+        x: 141
         y: 0
         width: 27
-        height: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7a350a94b4d991a0800000000000000
-      internalID: -6802171890023187843
+      spriteID: 96f67b3ee33a9c3b0800000000000000
+      internalID: -5491678780097859735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plupandando_3
+      name: plupandandoupdate_5
       rect:
         serializedVersion: 2
-        x: 97
+        x: 174
         y: 0
-        width: 29
-        height: 32
+        width: 28
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,52 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51aa941b6243adbb0800000000000000
-      internalID: -4910555102906308075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: plupandando_4
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 0
-        width: 27
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 390c4a09ed71d38a0800000000000000
-      internalID: -6323872057081413485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: plupandando_5
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 0
-        width: 27
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a66d36f6bc6f2bb0800000000000000
-      internalID: -4958625131640559966
+      spriteID: 2392535d9c0c117b0800000000000000
+      internalID: -5255207317066667726
       vertices: []
       indices: 
       edges: []
@@ -273,12 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plupandando_0: 1734122342533805401
-      plupandando_1: 7012528134638889329
-      plupandando_2: -6802171890023187843
-      plupandando_3: -4910555102906308075
-      plupandando_4: -6323872057081413485
-      plupandando_5: -4958625131640559966
+      plupandandoupdate_0: 8428025247501047004
+      plupandandoupdate_1: 806122779563285227
+      plupandandoupdate_2: 6653110902098694051
+      plupandandoupdate_3: -3302063799887965016
+      plupandandoupdate_4: -5491678780097859735
+      plupandandoupdate_5: -5255207317066667726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
