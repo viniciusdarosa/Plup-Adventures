@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Jogo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/again.unity
-    guid: 5e921edc29edcc54393b35eeff6d36c0
+    path: Assets/Scenes/Again2.unity
+    guid: a896cf364d836044baf59a7cbb2b791d
   - enabled: 1
     path: Assets/Scenes/Jogo_2.unity
     guid: 4ccd6f6a4b930a74983632f98b9bd6be
