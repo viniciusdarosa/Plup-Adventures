@@ -3249,7 +3249,6 @@ MonoBehaviour:
     m_Bits: 256
   invincibleTime: 0.3
   pushForce: 5
-  canAttack: 1
 --- !u!1 &944728516
 GameObject:
   m_ObjectHideFlags: 0
@@ -3965,14 +3964,14 @@ RectTransform:
   m_GameObject: {fileID: 990127532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1902238, y: 1.1902238, z: 1.1902238}
+  m_LocalScale: {x: 1.1116314, y: 1.1116314, z: 1.1116314}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1256705904}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1635, y: 724}
+  m_AnchoredPosition: {x: 1372.8945, y: 735.6124}
   m_SizeDelta: {x: 178.86, y: 120.528}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &990127534
@@ -21038,7 +21037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 509, y: 164}
+  m_AnchoredPosition: {x: 525.2, y: 167.4}
   m_SizeDelta: {x: 59.3787, y: 38.096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1688784021
