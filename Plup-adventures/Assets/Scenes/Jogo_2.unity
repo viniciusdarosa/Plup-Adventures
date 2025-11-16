@@ -4524,6 +4524,7 @@ GameObject:
   - component: {fileID: 711233769}
   - component: {fileID: 711233768}
   - component: {fileID: 711233772}
+  - component: {fileID: 711233773}
   m_Layer: 0
   m_Name: lobi_run_0 (3)
   m_TagString: Untagged
@@ -4697,6 +4698,33 @@ MonoBehaviour:
   alvo: {fileID: 2000825368}
   velocidade: 5
   distancia: 7
+--- !u!50 &711233773
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711233766}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &758621737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4711,6 +4739,7 @@ GameObject:
   - component: {fileID: 758621740}
   - component: {fileID: 758621739}
   - component: {fileID: 758621743}
+  - component: {fileID: 758621744}
   m_Layer: 0
   m_Name: lobi_run_0 (4)
   m_TagString: Untagged
@@ -4884,6 +4913,33 @@ MonoBehaviour:
   alvo: {fileID: 2000825368}
   velocidade: 5
   distancia: 7
+--- !u!50 &758621744
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758621737}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &766749145
 GameObject:
   m_ObjectHideFlags: 0
@@ -5540,6 +5596,7 @@ GameObject:
   - component: {fileID: 896502587}
   - component: {fileID: 896502586}
   - component: {fileID: 896502590}
+  - component: {fileID: 896502591}
   m_Layer: 0
   m_Name: lobi_run_0 (2)
   m_TagString: Untagged
@@ -5713,6 +5770,33 @@ MonoBehaviour:
   alvo: {fileID: 2000825368}
   velocidade: 5
   distancia: 7
+--- !u!50 &896502591
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896502584}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &907848470
 GameObject:
   m_ObjectHideFlags: 0
@@ -6169,6 +6253,7 @@ GameObject:
   - component: {fileID: 960813579}
   - component: {fileID: 960813578}
   - component: {fileID: 960813582}
+  - component: {fileID: 960813583}
   m_Layer: 0
   m_Name: lobi_run_0 (6)
   m_TagString: Untagged
@@ -6342,6 +6427,33 @@ MonoBehaviour:
   alvo: {fileID: 2000825368}
   velocidade: 5
   distancia: 7
+--- !u!50 &960813583
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960813576}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &969876457
 GameObject:
   m_ObjectHideFlags: 0
@@ -6858,6 +6970,7 @@ GameObject:
   - component: {fileID: 1076270003}
   - component: {fileID: 1076270002}
   - component: {fileID: 1076270004}
+  - component: {fileID: 1076270005}
   m_Layer: 0
   m_Name: lobi_run_0
   m_TagString: Untagged
@@ -7031,6 +7144,33 @@ MonoBehaviour:
   alvo: {fileID: 2000825368}
   velocidade: 5
   distancia: 7
+--- !u!50 &1076270005
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076269998}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1078296877
 GameObject:
   m_ObjectHideFlags: 0
@@ -7045,6 +7185,7 @@ GameObject:
   - component: {fileID: 1078296880}
   - component: {fileID: 1078296879}
   - component: {fileID: 1078296883}
+  - component: {fileID: 1078296884}
   m_Layer: 0
   m_Name: lobi_run_0 (5)
   m_TagString: Untagged
@@ -7218,6 +7359,33 @@ MonoBehaviour:
   alvo: {fileID: 2000825368}
   velocidade: 5
   distancia: 7
+--- !u!50 &1078296884
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078296877}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1086863933
 GameObject:
   m_ObjectHideFlags: 0
@@ -8110,6 +8278,7 @@ GameObject:
   - component: {fileID: 1250862173}
   - component: {fileID: 1250862176}
   - component: {fileID: 1250862177}
+  - component: {fileID: 1250862178}
   m_Layer: 0
   m_Name: wolf
   m_TagString: Untagged
@@ -8237,6 +8406,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2062457856}
+--- !u!50 &1250862178
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250862172}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1257365464
 GameObject:
   m_ObjectHideFlags: 0
@@ -10074,6 +10270,7 @@ GameObject:
   - component: {fileID: 1506748500}
   - component: {fileID: 1506748499}
   - component: {fileID: 1506748503}
+  - component: {fileID: 1506748504}
   m_Layer: 0
   m_Name: lobi_run_0 (1)
   m_TagString: Untagged
@@ -10247,6 +10444,33 @@ MonoBehaviour:
   alvo: {fileID: 2000825368}
   velocidade: 5
   distancia: 7
+--- !u!50 &1506748504
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506748497}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1516376085
 GameObject:
   m_ObjectHideFlags: 0
@@ -11531,6 +11755,7 @@ GameObject:
   - component: {fileID: 1668056865}
   - component: {fileID: 1668056864}
   - component: {fileID: 1668056868}
+  - component: {fileID: 1668056869}
   m_Layer: 0
   m_Name: lobi_run_0 (7)
   m_TagString: Untagged
@@ -11704,6 +11929,33 @@ MonoBehaviour:
   alvo: {fileID: 2000825368}
   velocidade: 5
   distancia: 7
+--- !u!50 &1668056869
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668056862}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1682767594
 GameObject:
   m_ObjectHideFlags: 0

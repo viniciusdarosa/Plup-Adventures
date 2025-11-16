@@ -2129,11 +2129,11 @@ Transform:
   m_GameObject: {fileID: 432347000}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 323.19, y: 2.59, z: 0.23146638}
+  m_LocalPosition: {x: 3.25659, y: -2.1422186, z: 10.015084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 961447267}
+  m_Father: {fileID: 1749312067}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &432347002
 AudioSource:
@@ -77462,7 +77462,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2040826273}
-  - {fileID: 432347001}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &966348528
@@ -81634,7 +81633,8 @@ Transform:
   m_LocalPosition: {x: 28.94504, y: 0.76714337, z: -10.015084}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 432347001}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1768720672
@@ -82882,7 +82882,6 @@ GameObject:
   - component: {fileID: 1958197370}
   - component: {fileID: 1958197369}
   - component: {fileID: 1958197368}
-  - component: {fileID: 1958197371}
   - component: {fileID: 1958197372}
   - component: {fileID: 1958197373}
   m_Layer: 0
@@ -82960,30 +82959,12 @@ Transform:
   m_GameObject: {fileID: 1958197367}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.15, y: 1.46, z: -10}
+  m_LocalPosition: {x: 31, y: 0.4, z: -10}
   m_LocalScale: {x: 0.69270974, y: 0.69270974, z: 0.69270974}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1958197371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1958197367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2b4b9602246f0c46be2f5e8fa055912, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  smoothSpeed: 5
-  minX: -305.99
-  maxX: 30.55
-  minY: 0.2
-  maxY: -10.22
 --- !u!82 &1958197372
 AudioSource:
   m_ObjectHideFlags: 0
@@ -83095,10 +83076,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 432347001}
   smoothSpeed: 5
-  minX: 0
-  maxX: 0
-  minY: 0
-  maxY: 0
+  minX: -304.79
+  maxX: 32.51
+  minY: -9.74
+  maxY: 1
 --- !u!1 &2005188192
 GameObject:
   m_ObjectHideFlags: 0
