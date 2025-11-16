@@ -1715,7 +1715,7 @@ GameObject:
   - component: {fileID: 616859714}
   - component: {fileID: 616859713}
   - component: {fileID: 616859716}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bonecodeneve_0
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -1851,6 +1851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 2
 --- !u!1 &617343184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,7 +1864,7 @@ GameObject:
   - component: {fileID: 617343188}
   - component: {fileID: 617343186}
   - component: {fileID: 617343189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bonecodeneve_0
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -1898,6 +1899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 2
 --- !u!212 &617343188
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2921,6 +2923,7 @@ GameObject:
   - component: {fileID: 891519006}
   - component: {fileID: 891519007}
   - component: {fileID: 891519008}
+  - component: {fileID: 891519009}
   m_Layer: 0
   m_Name: Plup
   m_TagString: Player
@@ -3224,6 +3227,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &891519009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891519000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b5cb588c885f24baabe699d1630a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 891519003}
+  attackRange: 1.4
+  attackCooldown: 0.3
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  invincibleTime: 0.3
+  pushForce: 5
 --- !u!1 &944728516
 GameObject:
   m_ObjectHideFlags: 0
@@ -3323,7 +3346,7 @@ GameObject:
   - component: {fileID: 950800339}
   - component: {fileID: 950800337}
   - component: {fileID: 950800340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bonecodeneve_0
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -3358,6 +3381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 2
 --- !u!212 &950800339
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5934,6 +5958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 2
 --- !u!61 &1316206583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18837,7 +18862,7 @@ GameObject:
   - component: {fileID: 1361663327}
   - component: {fileID: 1361663325}
   - component: {fileID: 1361663328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bonecodeneve_0
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -18872,6 +18897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 2
 --- !u!212 &1361663327
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19787,7 +19813,7 @@ GameObject:
   - component: {fileID: 1508364871}
   - component: {fileID: 1508364869}
   - component: {fileID: 1508364872}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bonecodeneve_0
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -19822,6 +19848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 2
 --- !u!212 &1508364871
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20245,6 +20272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 2
 --- !u!1 &1582648989
 GameObject:
   m_ObjectHideFlags: 0
@@ -20379,7 +20407,7 @@ GameObject:
   - component: {fileID: 1606335413}
   - component: {fileID: 1606335411}
   - component: {fileID: 1606335414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bonecodeneve_0
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -20414,6 +20442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 2
 --- !u!212 &1606335413
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22124,9 +22153,9 @@ GameObject:
   - component: {fileID: 1897646144}
   - component: {fileID: 1897646146}
   - component: {fileID: 1897646147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: orca
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22282,6 +22311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  hitsToDie: 5
 --- !u!50 &1897646146
 Rigidbody2D:
   serializedVersion: 5

@@ -6,7 +6,7 @@ public class Boneco : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        TakeHit();
     }
 
     // Update is called once per frame
@@ -25,6 +25,21 @@ public class Boneco : MonoBehaviour
             gamemanager.PerderP(5);
         }
     }
+
+    public int hitsToDie = 2;
+    private int currentHits = 0;
+
+    public void TakeHit()
+    {
+        currentHits++;
+
+        if (currentHits >= hitsToDie)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
+
+
 
 

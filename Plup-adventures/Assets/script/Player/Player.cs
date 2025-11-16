@@ -31,7 +31,6 @@ public class Player : MonoBehaviour
     {
         Move();//chamo o move pra cá
         jump();//chamo o pulo 
-        atack();//chama atack
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -79,13 +78,6 @@ public void reiniciarposicao()
 
         }
 
-    }
-    void atack()
-    {
-        bool isLeftButtonDown = Input.GetMouseButtonDown(0);
-        if (isLeftButtonDown == true) {
-            anim.SetInteger("transition", 2);
-        }
     }
 }
 
