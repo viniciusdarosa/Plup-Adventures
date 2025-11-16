@@ -992,6 +992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &255508955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1267,7 +1268,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1534, y: 736}
+  m_AnchoredPosition: {x: 1361.6306, y: 736.0001}
   m_SizeDelta: {x: 43.1323, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324488443
@@ -1832,6 +1833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &374335702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4996,7 +4998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1498, y: 709}
+  m_AnchoredPosition: {x: -1161.6696, y: 645.9381}
   m_SizeDelta: {x: 280.5268, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &915726898
@@ -6169,6 +6171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!1 &1162273434
 GameObject:
   m_ObjectHideFlags: 0
@@ -6955,6 +6958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &1239719258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8026,8 +8030,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1535, y: 795}
-  m_SizeDelta: {x: 268.7833, y: 50}
+  m_AnchoredPosition: {x: -1194.4657, y: 774.8049}
+  m_SizeDelta: {x: 268.7833, y: 47.6097}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1349563787
 MonoBehaviour:
@@ -97649,6 +97653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &1650065149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98682,6 +98687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &1717215632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98946,6 +98952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &1780676596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99123,6 +99130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &1798303862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100194,6 +100202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &1919054151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100788,6 +100797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!114 &1965005844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100928,6 +100938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+  hitsToDie: 2
 --- !u!50 &2008352821
 Rigidbody2D:
   serializedVersion: 5
