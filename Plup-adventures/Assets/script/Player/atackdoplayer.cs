@@ -16,7 +16,7 @@ public class PlayerAttack : MonoBehaviour
     [Header("Push Back Settings")]
     public float pushForce = 5f;
 
-    public bool canAttack = true;
+    private bool canAttack = true;
     private bool isInvincible = false;
 
     void Update()
@@ -29,14 +29,12 @@ public class PlayerAttack : MonoBehaviour
 
     private System.Collections.IEnumerator Attack()
     {
-        canAttack = false;
-
         anim.SetInteger("transition", 2);
+        canAttack = false;
 
         // Player fica intangível por algum tempo
         isInvincible = true;
 
-        // Detecta inimigos pela layer
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
 
         foreach (Collider2D inimigo in hitEnemies)
