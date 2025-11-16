@@ -2566,7 +2566,7 @@ MonoBehaviour:
   jumpForce: 8
   isground: 1
   posicaoI: {x: 4, y: 5}
-  gamemanager: {fileID: 0}
+  gamemanager: {fileID: 2067096590}
 --- !u!61 &522501778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2745,11 +2745,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 522501780}
-  attackRange: 1
+  attackRange: 1.4
   attackCooldown: 0.3
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   invincibleTime: 0.3
   pushForce: 5
 --- !u!1 &527992500
@@ -6350,6 +6350,7 @@ GameObject:
   - component: {fileID: 1161008011}
   - component: {fileID: 1161008012}
   - component: {fileID: 1161008013}
+  - component: {fileID: 1161008014}
   m_Layer: 8
   m_Name: coruja_fly_0
   m_TagString: Inimigo
@@ -6498,8 +6499,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0000009536743, y: -0.00000010430813}
-  m_Radius: 0.23437506
+  m_Offset: {x: -0.0035703005, y: -0.0017844823}
+  m_Radius: 0.2789844
 --- !u!114 &1161008013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6513,8 +6514,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
-  isSpecialEnemy: 0
+  isSpecialEnemy: 1
   hitsToDie: 2
+--- !u!50 &1161008014
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161008007}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1162273434
 GameObject:
   m_ObjectHideFlags: 0
