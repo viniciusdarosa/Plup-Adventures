@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Boneco : MonoBehaviour
 {
     public Gamemanager gamemanager;
+    public bool isSpecialEnemy = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,7 +37,25 @@ public class Boneco : MonoBehaviour
 
         if (currentHits >= hitsToDie)
         {
+            if (isSpecialEnemy)
+            {
+                NextLevel();
+            }
             Destroy(gameObject);
+        }
+    }
+    void NextLevel()
+    {
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentScene < 5 && currentScene > 1)
+        {
+            SceneManager.LoadScene(currentScene + 1);
+        }
+        else
+        {
+            Debug.Log("Você terminou todas as fases!");
+            
         }
     }
 }

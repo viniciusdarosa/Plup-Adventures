@@ -16,7 +16,7 @@ public class PlayerAttack : MonoBehaviour
     [Header("Push Back Settings")]
     public float pushForce = 5f;
 
-    private bool canAttack = true;
+    public bool canAttack = true;
     private bool isInvincible = false;
 
     void Update()
@@ -44,10 +44,8 @@ public class PlayerAttack : MonoBehaviour
             // Confirma que a tag é "inimigo"
             if (inimigo.CompareTag("Inimigo"))
             {
-                Boneco eh = inimigo.GetComponent<Boneco>();
-                if (eh != null)
+                if (inimigo.TryGetComponent<Boneco>(out Boneco eh))
                 {
-                    // 2 hits para morrer
                     eh.TakeHit();
 
                     // Empurrar o inimigo para trás

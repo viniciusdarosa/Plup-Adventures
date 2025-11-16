@@ -1851,6 +1851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 0
   hitsToDie: 2
 --- !u!1 &617343184
 GameObject:
@@ -1899,6 +1900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 0
   hitsToDie: 2
 --- !u!212 &617343188
 SpriteRenderer:
@@ -3381,6 +3383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 0
   hitsToDie: 2
 --- !u!212 &950800339
 SpriteRenderer:
@@ -5958,6 +5961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 0
   hitsToDie: 2
 --- !u!61 &1316206583
 BoxCollider2D:
@@ -18897,6 +18901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 0
   hitsToDie: 2
 --- !u!212 &1361663327
 SpriteRenderer:
@@ -19848,6 +19853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 0
   hitsToDie: 2
 --- !u!212 &1508364871
 SpriteRenderer:
@@ -20272,6 +20278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 0
   hitsToDie: 2
 --- !u!1 &1582648989
 GameObject:
@@ -20442,6 +20449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 0
   hitsToDie: 2
 --- !u!212 &1606335413
 SpriteRenderer:
@@ -22311,6 +22319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 1896100377}
+  isSpecialEnemy: 1
   hitsToDie: 5
 --- !u!50 &1897646146
 Rigidbody2D:
