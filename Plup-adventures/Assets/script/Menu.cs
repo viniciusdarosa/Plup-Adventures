@@ -15,6 +15,7 @@ public class Menu : MonoBehaviour
     public void nogame()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
 
     }
 

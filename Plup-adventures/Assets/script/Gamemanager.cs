@@ -40,8 +40,9 @@ public class Gamemanager : MonoBehaviour
             vidas = 0;
 
             Time.timeScale = 0;
+            
             SceneManager.LoadScene(2);
-
+            Time.timeScale = 1;
             Debug.Log("gamer-over");
 
 
@@ -65,6 +66,7 @@ public class Gamemanager : MonoBehaviour
         {
             Time.timeScale = 0;
             SceneManager.LoadScene(2);
+            Time.timeScale = 1;
 
             Debug.Log("gamer-over");
         }
