@@ -844,6 +844,7 @@ GameObject:
   - component: {fileID: 255508953}
   - component: {fileID: 255508954}
   - component: {fileID: 255508955}
+  - component: {fileID: 255508956}
   m_Layer: 0
   m_Name: coruja_fly_0 (4)
   m_TagString: Untagged
@@ -1007,6 +1008,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &255508956
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255508949}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &289072134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,6 +1712,7 @@ GameObject:
   - component: {fileID: 374335700}
   - component: {fileID: 374335701}
   - component: {fileID: 374335702}
+  - component: {fileID: 374335703}
   m_Layer: 0
   m_Name: coruja_fly_0 (7)
   m_TagString: Untagged
@@ -1847,6 +1876,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &374335703
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374335696}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &406587670
 GameObject:
   m_ObjectHideFlags: 0
@@ -6006,6 +6062,7 @@ GameObject:
   - component: {fileID: 1161008011}
   - component: {fileID: 1161008012}
   - component: {fileID: 1161008013}
+  - component: {fileID: 1161008014}
   m_Layer: 0
   m_Name: coruja_fly_0
   m_TagString: Untagged
@@ -6169,6 +6226,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+--- !u!50 &1161008014
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161008007}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1162273434
 GameObject:
   m_ObjectHideFlags: 0
@@ -6807,6 +6891,7 @@ GameObject:
   - component: {fileID: 1239719256}
   - component: {fileID: 1239719257}
   - component: {fileID: 1239719258}
+  - component: {fileID: 1239719259}
   m_Layer: 0
   m_Name: coruja_fly_0 (8)
   m_TagString: Untagged
@@ -6970,6 +7055,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &1239719259
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239719252}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1242947758
 GameObject:
   m_ObjectHideFlags: 0
@@ -97501,6 +97613,7 @@ GameObject:
   - component: {fileID: 1650065147}
   - component: {fileID: 1650065148}
   - component: {fileID: 1650065149}
+  - component: {fileID: 1650065150}
   m_Layer: 0
   m_Name: coruja_fly_0 (5)
   m_TagString: Untagged
@@ -97664,6 +97777,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &1650065150
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650065143}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1651606581
 GameObject:
   m_ObjectHideFlags: 0
@@ -98534,6 +98674,7 @@ GameObject:
   - component: {fileID: 1717215630}
   - component: {fileID: 1717215631}
   - component: {fileID: 1717215632}
+  - component: {fileID: 1717215633}
   m_Layer: 0
   m_Name: coruja_fly_0 (3)
   m_TagString: Untagged
@@ -98697,6 +98838,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &1717215633
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717215626}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1771262621
 GameObject:
   m_ObjectHideFlags: 0
@@ -98798,6 +98966,7 @@ GameObject:
   - component: {fileID: 1780676594}
   - component: {fileID: 1780676595}
   - component: {fileID: 1780676596}
+  - component: {fileID: 1780676597}
   m_Layer: 0
   m_Name: coruja_fly_0 (2)
   m_TagString: Untagged
@@ -98961,6 +99130,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &1780676597
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780676590}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1798303856
 GameObject:
   m_ObjectHideFlags: 0
@@ -98975,6 +99171,7 @@ GameObject:
   - component: {fileID: 1798303860}
   - component: {fileID: 1798303861}
   - component: {fileID: 1798303862}
+  - component: {fileID: 1798303863}
   m_Layer: 0
   m_Name: coruja_fly_0 (6)
   m_TagString: Untagged
@@ -99138,6 +99335,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &1798303863
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798303856}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1816149565
 GameObject:
   m_ObjectHideFlags: 0
@@ -100046,6 +100270,7 @@ GameObject:
   - component: {fileID: 1919054149}
   - component: {fileID: 1919054150}
   - component: {fileID: 1919054151}
+  - component: {fileID: 1919054152}
   m_Layer: 0
   m_Name: coruja_fly_0 (1)
   m_TagString: Untagged
@@ -100209,6 +100434,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &1919054152
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919054145}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1926712814
 GameObject:
   m_ObjectHideFlags: 0
@@ -100640,6 +100892,7 @@ GameObject:
   - component: {fileID: 1965005842}
   - component: {fileID: 1965005843}
   - component: {fileID: 1965005844}
+  - component: {fileID: 1965005845}
   m_Layer: 0
   m_Name: coruja_fly_0 (9)
   m_TagString: Untagged
@@ -100803,6 +101056,33 @@ MonoBehaviour:
   alvo2: {fileID: 1684836464}
   velocidade2: 2
   distancia2: 8
+--- !u!50 &1965005845
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965005838}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2008352816
 GameObject:
   m_ObjectHideFlags: 0
@@ -100815,6 +101095,7 @@ GameObject:
   - component: {fileID: 2008352818}
   - component: {fileID: 2008352817}
   - component: {fileID: 2008352820}
+  - component: {fileID: 2008352821}
   m_Layer: 0
   m_Name: Crow
   m_TagString: Untagged
@@ -100927,6 +101208,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2067096590}
+--- !u!50 &2008352821
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008352816}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2018585061
 GameObject:
   m_ObjectHideFlags: 0
