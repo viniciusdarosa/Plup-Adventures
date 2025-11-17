@@ -40,20 +40,27 @@ public class Menu : MonoBehaviour
         go.SetActive(false);
     }
 
-    // ---------------------------
-    //      🔊 Funções de Áudio
-    // ---------------------------
-
-    // Mute: zera o volume e salva volume anterior
-    public void Mute()
+    // ----------------------------------
+    //          🔁 Reiniciar fase
+    // ----------------------------------
+    public void RestartLevel()
     {
-        savedVolume = AudioListener.volume; // guarda o volume atual
-        AudioListener.volume = 0f;          // desliga o som
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
+        Time.timeScale = 1; // caso estivesse pausado
     }
 
-    // Unmute: volta o volume salvo
+    // ----------------------------------
+    //          🔊 Controle de áudio
+    // ----------------------------------
+    public void Mute()
+    {
+        savedVolume = AudioListener.volume;
+        AudioListener.volume = 0f;
+    }
+
     public void Unmute()
     {
-        AudioListener.volume = savedVolume; // restaura o volume original
+        AudioListener.volume = savedVolume;
     }
 }
