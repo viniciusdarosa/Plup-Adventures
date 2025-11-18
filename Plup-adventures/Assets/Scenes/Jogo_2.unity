@@ -652,8 +652,8 @@ Transform:
   m_GameObject: {fileID: 64172281}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.004186504, z: -0, w: -0.99999124}
-  m_LocalPosition: {x: 15.31, y: -4.33, z: 0}
-  m_LocalScale: {x: 0.94506294, y: 1, z: 1}
+  m_LocalPosition: {x: 1.24, y: -54.09, z: -0.12}
+  m_LocalScale: {x: 0.8615288, y: 0.91161, z: 0.91161}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -8744,7 +8744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gamemanager: {fileID: 2062457856}
   isSpecialEnemy: 1
-  hitsToDie: 5
+  hitsToDie: 1
 --- !u!50 &1250862178
 Rigidbody2D:
   serializedVersion: 5
